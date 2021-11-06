@@ -1,0 +1,146 @@
+*{
+	margin: 0 auto;
+}
+
+html{
+	background-color: white;
+}
+ /* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 800px;
+	margin: 0 auto;
+	border:3px solid #931420;
+	background-color: #fffded;
+}
+section{
+	width: 525px;
+	float: right;
+}
+
+
+aside{
+	width: 215px;
+	float: right;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+ header{
+	 padding-top:1.5em;
+	 padding-bottom:2em;
+	 border-bottom:3px solid #931420;
+	 background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+ }
+
+
+/* the styles for the section */
+main {
+	clear: left;
+	padding-bottom-left:30px;
+	padding-right:30px;
+}
+
+
+main h2{
+	font-size: 130%;
+	color: #800000;
+
+}
+
+main h3{
+	font-size: 105%;
+}
+
+
+main img {
+	padding-bottom: 1em;
+
+}
+
+main p {
+	padding-bottom: 0.5em;
+}
+
+
+blockquote{
+	 padding-left: 2em;
+	 padding-right: 2em;
+}
+
+main ul{
+	 padding-bottom: 0.25em;
+	 padding-left: 1.25em;
+}
+
+main li{
+	 padding-bottom:0.35em;
+}
+
+main a:hover{
+	font-style: italic;
+}
+
+h1{
+	padding-top: .3em;
+	padding-bottom: .3em;
+	margin: 0;
+	font-size: 150%;
+}
+h2{
+	font-size: 170%;
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+
+h3{
+	font-size: 130%;
+
+}
+
+article{
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-top: 2px #800000 solid;
+	border-bottom: 2px #800000 solid;
+}
+
+article img{
+	float: right;
+	margin: 20px 0 20px 20px;
+
+}
+
+article h2{
+	padding-top: 0;
+}
+article h3{
+	font-size: 150%;
+	padding-bottom: .25em;
+}
+
+span.shadow{
+	text-shadow:1px 1px #800000;
+}
+
+/* the styles for the footer */
+
+footer {
+	background-color: #931420;
+	clear: both;
+}
+
+footer p {
+	color:white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+
+}
